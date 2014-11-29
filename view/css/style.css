@@ -1,0 +1,8 @@
+.buttons #button{
+    width: 100%;
+}
+
+.buttons #bheader{
+    padding: 0;
+    margin: 0;
+}

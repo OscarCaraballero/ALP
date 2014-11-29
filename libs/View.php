@@ -26,11 +26,11 @@ class View {
         $this->header = "view/layout/". "header.php";
         $this->footer = "view/layout/". "footer.php";
         
-        $this->layoutParams = array (
-            'ruta_css' => "ALP/view/". "css/",
-            'ruta_img' => "ALP/view/". "img/",
-            'ruta_js' =>  "ALP/view/". "css/"
-        );
+        //$this->layoutParams = array (
+        //    'ruta_css' => "ALP/view/". "css/",
+        //    'ruta_img' => "ALP/view/". "img/",
+        //    'ruta_js' =>  "ALP/view/". "css/"
+        //);
     }
     
     public function render($data){ 
