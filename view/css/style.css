@@ -6,3 +6,24 @@
     padding: 0;
     margin: 0;
 }
+
+.disponibilidad{
+    background: url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") repeat-x scroll 50% 50% #FFBD09;
+    height: 250px;
+}
+
+.video{
+    padding: 0px;    
+}
+
+.form {
+    margin: 10px;
+}
+
+.disVid{
+    margin-top: 5px;
+}
+
+.lorem{
+    margin-top: 10px;
+}
