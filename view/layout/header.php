@@ -66,7 +66,9 @@
             <div class="grid-100 buttons">
                 <div class="grid-20" id="bheader">
                     <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                        <a href="Inicio">
                         <span class="ui-button-text">Inicio</span>
+                        </a>
                     </button>
                 </div>
                 <div class="grid-15" id="bheader">
@@ -86,7 +88,9 @@
                 </div>
                 <div class="grid-15" id="bheader">
                     <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                        <a href="Contacto">
                         <span class="ui-button-text">Contacto</span>
+                        </a>
                     </button>
                 </div>
                 <div class="grid-20" id="bheader">
