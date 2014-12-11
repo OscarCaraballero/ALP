@@ -54,7 +54,11 @@
         $(document).ready(function(){
            $(".buttonService").click(function(evento){
               evento.preventDefault();
-              alert("MALDITA SEA");
+              $(".title").load("libs/ServiceTitle.php", {nombre: $(this).text()}, function(){
+                  title = $(this).text();
+                  $(".descripcion").load("libs/ServiceDescripcion.php", {descripcion: title}, function(){
+                  });
+              });
            });
         });
         </script>
