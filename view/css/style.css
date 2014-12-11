@@ -27,3 +27,41 @@
 .lorem{
     margin-top: 10px;
 }
+
+.servicios #button{
+    width: 100%;
+}
+
+.servicios{
+    padding-left: 0px;
+}
+
+.serviciosDesc #button{
+    width: 100%
+}
+
+.serviciosDesc{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.title{
+    background: #FFBD09 url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") 50% 50% repeat-x;
+    padding: .6em 1em;
+    color: #4c3000;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #d19405;
+    font-family: Segoe UI,Arial,sans-serif;
+    margin-top: 2px;
+}
+
+.descripcion{
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.fotoDesc{
+    margin-top: 10px;
+}
+

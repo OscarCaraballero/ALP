@@ -76,7 +76,7 @@
                 </div>
                 <div class="grid-15" id="bheader">
                     <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Galeria</span>
+                        <span class="ui-button-text">Instalaciones</span>
                     </button>
                 </div>
                 <div class="grid-15" id="bheader">
