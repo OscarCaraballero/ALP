@@ -28,16 +28,12 @@
     margin-top: 10px;
 }
 
-.servicios #button{
+.buttonService{
     width: 100%;
 }
 
 .servicios{
     padding-left: 0px;
-}
-
-.serviciosDesc #button{
-    width: 100%
 }
 
 .serviciosDesc{

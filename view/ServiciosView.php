@@ -1,18 +1,18 @@
 <div class="grid-100 disVid">
     <div class="grid-15 servicios">
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonService">
             <span class="ui-button-text">Piscina</span>
         </button>
                 
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonService">
             <span class="ui-button-text">WiFi</span>
         </button>
         
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonService">
             <span class="ui-button-text">Animales</span>
         </button>
         
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonService">
             <span class="ui-button-text">Servicio de habitaciones</span>
         </button>
         
@@ -31,7 +31,7 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
 
         </div>
         <div class="grid-35 fotoDesc">
-            <p>FOTO</p>
+            <img src="view/img/logo.png"></img>
         </div>
     </div>
 </div>
