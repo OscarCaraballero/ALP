@@ -84,7 +84,7 @@
         </script>
         <script>
         $(document).ready(function(){
-           $(".buttonLocation").click(function(evento){
+           $(".buttonComplex").click(function(evento){
               evento.preventDefault();
               $(".title").load("libs/ServiceTitle.php", {nombre: $(this).text()}, function(){
                   // Usamos el tamaño por brujería de las strings

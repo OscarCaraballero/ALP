@@ -43,11 +43,11 @@
     padding-right: 0px;
 }
 
-.ubicacion{
+.instalaciones{
     padding-left: 0px;
 }
 
-.ubicacionDesc{
+.instalacionesDesc{
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -76,7 +76,7 @@ a.fotoDesc img {
     width: 100%;
 }
 
-.buttonLocation{
+.buttonComplex{
     width: 100%;
     margin-bottom: 0px;
     margin-top: 0px;

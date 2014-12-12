@@ -1,24 +1,24 @@
 <div class="grid-100 disVid">
-    <div class="grid-15 ubicacion">
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonLocation">
+    <div class="grid-15 instalaciones">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonComplex">
             <span class="ui-button-text">Apartamentos</span>
         </button>
                 
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonLocation">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonComplex">
             <span class="ui-button-text">Recepción</span>
         </button>
         
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonLocation">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonComplex">
             <span class="ui-button-text">Aparcamiento </span>
         </button>
         
-        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonLocation">
+        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only buttonComplex">
             <span class="ui-button-text">Bar</span>
         </button>
         
     </div>
     
-    <div class="grid-85 ubicacionDesc"> 
+    <div class="grid-85 instalacionesDesc"> 
         <div class="grid-100 title">
             <h1>Apartamentos</h1>
         </div>
@@ -36,4 +36,10 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
             </a>
         </div>
     </div>
+</div>
+<div class="grid-100 disVid">
+    <div class="grid-15" ></div>
+    <div class="grid-85 carruselDiv">
+        
+    </div>    
 </div>
