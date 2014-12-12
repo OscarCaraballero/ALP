@@ -75,7 +75,39 @@
                       photo_path = "view/img/habitaciones.jpg";
                   }
                   
-                  $(".descripcion").load("libs/ServiceDescripcion.php", {descripcion: title}, function(){
+                  $(".descripcion").load("libs/ServiceDescription.php", {descripcion: title}, function(){
+                      $(".fotoDesc img").attr("src",photo_path);
+                  });
+              });
+           });
+        });
+        </script>
+        <script>
+        $(document).ready(function(){
+           $(".buttonLocation").click(function(evento){
+              evento.preventDefault();
+              $(".title").load("libs/ServiceTitle.php", {nombre: $(this).text()}, function(){
+                  // Usamos el tamaño por brujería de las strings
+                  var title = $(this).html().length;
+                  var photo_path = "";
+                  if(title===35){
+                      title = 1;
+                      photo_path = "view/img/apartamentos.jpg";
+                  }
+                  else if(title===32){
+                      title = 2;
+                      photo_path = "view/img/recepcion.jpg";
+                  }
+                  else if(title===36){
+                      title = 3;
+                      photo_path = "view/img/aparcamiento.jpg";
+                  }
+                  else if(title===26){
+                      title = 4;
+                      photo_path = "view/img/bar.jpg";
+                  }
+                  
+                  $(".descripcion").load("libs/ServiceDescription.php", {descripcion: title}, function(){
                       $(".fotoDesc img").attr("src",photo_path);
                   });
               });

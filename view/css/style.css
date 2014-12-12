@@ -43,6 +43,15 @@
     padding-right: 0px;
 }
 
+.ubicacion{
+    padding-left: 0px;
+}
+
+.ubicacionDesc{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .title{
     background: #FFBD09 url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") 50% 50% repeat-x;
     padding: .6em 1em;
@@ -65,4 +74,10 @@
 a.fotoDesc img {
     margin-top: 10px;
     width: 100%;
+}
+
+.buttonLocation{
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
