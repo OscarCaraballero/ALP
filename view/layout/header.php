@@ -6,7 +6,8 @@
         <link rel="stylesheet" type="text/css" href="view/css/reset.css">
         <link rel="stylesheet" type="text/css" href="view/css/unsemantic.css">
         <link rel="stylesheet" type="text/css" href="view/css/jquery-ui-1.11.2/jquery-ui.css">
-        <link rel="stylesheet" type="text/css" href="view/css/style.css"
+        <link rel="stylesheet" type="text/css" href="view/css/style.css">
+        <link rel="stylesheet" type="text/css" href="view/css/carrusel.css">
         <script src="view/css/jquery-ui-1.11.2/external/jquery/jquery.js"></script>
         <script src="view/css/jquery-1.11.1.min.js"></script>
         <script src="view/css/jquery-ui-1.11.2/jquery-ui.min.js"></script>
@@ -114,6 +115,8 @@
            });
         });
         </script>
+        
+    </script>
     </head>
     <body>
         <div class="grid-container">

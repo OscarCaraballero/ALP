@@ -38,8 +38,32 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
     </div>
 </div>
 <div class="grid-100 disVid">
-    <div class="grid-15" ></div>
-    <div class="grid-85 carruselDiv">
-        
-    </div>    
+    <!-- http://rolandocaldas.com/html5/slider-css-sin-javascript -->
+    <div id="page">
+        <section>
+            <input type="radio" name="slider-select-element" id="element1" checked="checked" />
+            <input type="radio" name="slider-select-element" id="element2" />
+            <input type="radio" name="slider-select-element" id="element3" />
+
+            <div id="slider-container">
+                <div id="slider-box">
+                    <div class="slider-element">
+                        <img class="foto-carrusel" src="view/img/piscina.jpg"></img>
+                    </div>
+                    <div class="slider-element">
+                        <img class="foto-carrusel" src="view/img/bar.jpg"></img>
+                    </div>
+                    <div class="slider-element">
+                        <img class="foto-carrusel" src="view/img/habitaciones.jpg"></img>                            
+                    </div>
+                </div>
+            </div>
+
+            <div id="slider-arrows">
+                <label for="element1"></label>
+                <label for="element2"></label>
+                <label for="element3"></label>
+            </div>
+        </section>
+    </div>
 </div>
