@@ -57,20 +57,26 @@
               $(".title").load("libs/ServiceTitle.php", {nombre: $(this).text()}, function(){
                   // Usamos el tamaño por brujería de las strings
                   var title = $(this).text().length;
+                  var photo_path = "";
                   if(title===30){
                       title = 1;
+                      photo_path = "view/img/piscina.jpg";
                   }
                   else if(title===27){
                       title = 2;
+                      photo_path = "view/img/wifi.png";
                   }
                   else if(title===31){
                       title = 3;
+                      photo_path = "view/img/animales.png";
                   }
                   else if(title===47){
                       title = 4;
+                      photo_path = "view/img/habitaciones.jpg";
                   }
                   
                   $(".descripcion").load("libs/ServiceDescripcion.php", {descripcion: title}, function(){
+                      $(".fotoDesc img").attr("src",photo_path);
                   });
               });
            });

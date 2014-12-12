@@ -30,8 +30,10 @@
 Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin scelerisque volutpat posuere. Etiam lectus neque, finibus vestibulum vehicula at, porttitor et arcu. Vestibulum tincidunt blandit aliquet. Sed in dictum magna, eget cursus metus. Phasellus id laoreet quam. Etiam id tellus et risus dapibus auctor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris at metus elit. Donec at dignissim dui. Etiam cursus ipsum ac sapien lobortis, quis porta nisl feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus convallis et ipsum eu gravida. Donec leo justo, fermentum sed erat in, imperdiet aliquam nisl. </p>
 
         </div>
-        <div class="grid-35 fotoDesc">
-            <img src="view/img/piscina.jpg"></img>
+        <div class="grid-35 fotoDescDiv" >
+            <a class="fotoDesc" href="view/img/piscina.jpg">
+                <img src="view/img/piscina.jpg" alt="" />
+            </a>
         </div>
     </div>
 </div>

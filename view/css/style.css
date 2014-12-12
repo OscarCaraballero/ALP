@@ -30,6 +30,8 @@
 
 .buttonService{
     width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .servicios{
@@ -49,7 +51,6 @@
     text-align: center;
     border: 1px solid #d19405;
     font-family: Segoe UI,Arial,sans-serif;
-    margin-top: 2px;
 }
 
 .descripcion{
@@ -57,7 +58,11 @@
     margin-top: 10px;
 }
 
-.fotoDesc{
-    margin-top: 10px;
+.fotoDescDiv {
+    padding-right: 0px;    
 }
 
+a.fotoDesc img {
+    margin-top: 10px;
+    width: 100%;
+}
