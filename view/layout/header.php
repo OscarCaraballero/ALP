@@ -55,7 +55,21 @@
            $(".buttonService").click(function(evento){
               evento.preventDefault();
               $(".title").load("libs/ServiceTitle.php", {nombre: $(this).text()}, function(){
-                  title = $(this).text();
+                  // Usamos el tamaño por brujería de las strings
+                  var title = $(this).text().length;
+                  if(title===30){
+                      title = 1;
+                  }
+                  else if(title===27){
+                      title = 2;
+                  }
+                  else if(title===31){
+                      title = 3;
+                  }
+                  else if(title===47){
+                      title = 4;
+                  }
+                  
                   $(".descripcion").load("libs/ServiceDescripcion.php", {descripcion: title}, function(){
                   });
               });

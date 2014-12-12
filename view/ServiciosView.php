@@ -31,7 +31,7 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
 
         </div>
         <div class="grid-35 fotoDesc">
-            <img src="view/img/logo.png"></img>
+            <img src="view/img/piscina.jpg"></img>
         </div>
     </div>
 </div>
