@@ -12,8 +12,14 @@
     height: 250px;
 }
 
+body{
+    font-family: Segoe UI,Arial,sans-serif;
+}
+
 .video{
-    padding: 0px;    
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
 }
 
 .form {
@@ -82,3 +88,31 @@ a.fotoDesc img {
     margin-top: 0px;
 }
 
+#button{
+    display: block;
+    margin: 1em 0;
+}
+
+form fieldset {
+  float: left;
+  width: 48%;
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+  font-weight:bold;
+  color: #4C3000;
+  }
+  
+  form input{
+      margin-top: 10px;
+  }
+   
+  #number-button{
+      margin-top: 10px;
+  }
+  
+  #niños-button{
+      margin-top: 10px;
+  }
