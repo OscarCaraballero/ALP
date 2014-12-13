@@ -132,29 +132,39 @@
             </div>
             <div class="grid-100 buttons">
                 <div class="grid-20" id="bheader">
-                    <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Inicio</span>
-                    </button>
+                    <form action="Inicio" method="post">
+                        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                            <span class="ui-button-text">Inicio</span>
+                        </button>
+                    </form>
                 </div>
                 <div class="grid-15" id="bheader">
-                    <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Servicios</span>
-                    </button>
+                    <form action="Servicios" method="post">
+                        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                            <span class="ui-button-text">Servicios</span>
+                        </button>
+                    </form>
                 </div>
                 <div class="grid-15" id="bheader">
-                    <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Instalaciones</span>
-                    </button>
+                    <form action="Instalaciones" method="post">
+                        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                            <span class="ui-button-text">Instalaciones</span>
+                        </button>
+                    </form>
                 </div>
                 <div class="grid-15" id="bheader">
-                    <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Ubicación</span>
-                    </button>
+                    <form action="Ubicacion" method="post">
+                        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                            <span class="ui-button-text">Ubicación</span>                       
+                        </button>
+                    </form>
                 </div>
                 <div class="grid-15" id="bheader">
-                    <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
-                        <span class="ui-button-text">Contacto</span>
-                    </button>
+                    <form action="Contacto" method="post">
+                        <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
+                            <span class="ui-button-text">Contacto</span>
+                        </button>
+                    </form>
                 </div>
                 <div class="grid-20" id="bheader">
                     <button role="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button">
