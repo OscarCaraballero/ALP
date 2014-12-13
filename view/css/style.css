@@ -23,15 +23,16 @@ body{
 }
 
 .form {
-    margin: 10px;
+    margin: 20px;
+    margin-left: 80px !important;
 }
 
 .disVid{
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .lorem{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .buttonService{
@@ -148,12 +149,12 @@ input[type='text']{
 
 #mascotas{
     width: 270px;
-    height: 153px;
+    height: 103px;
 }
 
 #playa{
     width: auto;
-    height: 153px;
+    height: 103px;
     border-radius: 5px;
 }
 

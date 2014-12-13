@@ -17,7 +17,6 @@
             <fieldset>
                 <label>Salida</label>
                 <input type="text" id="salida">
-
                 <label>Niños</label>
                 <select name="niños" id="niños">
                     <option selected="selected">1</option>
@@ -32,8 +31,8 @@
             </fieldset>
         </form>    
     </div>
-    <div class="grid-50 video">
-        <iframe width="802" height="250" src="//www.youtube-nocookie.com/embed/kPDnw3_1GOI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div class=" grid-50 video">
+        <iframe width="570" height="250" src="//www.youtube-nocookie.com/embed/kPDnw3_1GOI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 <div class="grid-100 lorem">

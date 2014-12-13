@@ -117,7 +117,7 @@
         </script>
     </head>
     <body>
-        <div class="grid-100">
+        <div id="wrapper" class="grid-container">
             <div id="header" class="grid-100 header">
 			<div class="grid-40">
                 <img src="view/img/logo.png"></img>
