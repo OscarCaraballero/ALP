@@ -94,25 +94,76 @@ a.fotoDesc img {
 }
 
 form fieldset {
-  float: left;
-  width: 48%;
+    float: left;
+    width: 48%;
 }
 
 label {
-  display: block;
-  margin: .5em 0 0 0;
-  font-weight:bold;
-  color: #4C3000;
-  }
-  
-  form input{
-      margin-top: 10px;
-  }
-   
-  #number-button{
-      margin-top: 10px;
-  }
-  
-  #niños-button{
-      margin-top: 10px;
-  }
+    display: block;
+    margin: .5em 0 0 0;
+    font-weight:bold;
+    color: #4C3000;
+}
+
+form input{
+    margin-top: 10px;
+}
+
+#number-button{
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px #D19405;
+    width: 55px !important;
+}
+
+#niños-button{
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px #D19405;
+    width: 55px !important;
+}
+
+input[type='text']{
+    background: url("images/ui-bg_flat_100_FFDB5C_40x100.png") repeat-x scroll 50% 50% #FFDB5C;
+    box-shadow: 2px 2px 2px #D19405;
+    border: 1px solid #D19405;
+    color: #402D02;
+    text-align: center;
+    font-weight: bold;
+    width: 160px;
+    height: 25px;
+}
+
+.boton{
+    box-shadow: 2px 2px 2px #D19405;
+    background: url("images/ui-bg_flat_100_FFDB5C_40x100.png") repeat-x scroll 50% 50% #FFDB5C;
+}
+
+.images{
+    margin-top: 30px;
+
+}
+.images img{
+    width: 100%;
+
+}
+
+#mascotas{
+    width: 270px;
+    height: 153px;
+}
+
+#playa{
+    width: auto;
+    height: 153px;
+    border-radius: 5px;
+}
+
+.FT{
+    width: 50px;
+    margin-top: 5px;
+}
+
+.footer{
+    text-align: right;
+    background: url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") repeat-x scroll 50% 50% #FFBD09;
+    height: 60px;
+}
