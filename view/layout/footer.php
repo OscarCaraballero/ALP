@@ -21,8 +21,7 @@
        
                if ( ($(document.body).height()+footerHeight) < $(window).height()) {
                    $footer.css({
-                        position: "absolute"
-                   }).stop().animate({
+                        position: "absolute",
                         top: footerTop
                    })
                } else {

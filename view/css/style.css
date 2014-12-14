@@ -99,10 +99,17 @@ a.fotoDesc img {
     margin-top: 0px;
 }
 
+#logo{
+    	max-width: 100%;
+        height: 150px;
+        width: 472px;
+        padding: 0px;
+        margin-top: 0px;
+}
+
 #principal{
     	max-width: 100%;
-        height: auto;
-        margin: 0 0 10px;
+        height: 150px;
 }
 
 
@@ -159,6 +166,15 @@ input[type='text']{
     height: 25px;
 }
 
+textarea{
+    background: url("images/ui-bg_flat_100_FFDB5C_40x100.png") repeat-x scroll 50% 50% #FFDB5C;
+    box-shadow: 2px 2px 2px #D19405;
+    border: 1px solid #D19405;
+    color: #402D02;
+    text-align: center;
+    font-weight: bold;
+}
+
 .boton{
     box-shadow: 2px 2px 2px #D19405;
     background: url("images/ui-bg_flat_100_FFDB5C_40x100.png") repeat-x scroll 50% 50% #FFDB5C;
@@ -193,6 +209,26 @@ input[type='text']{
     text-align: right;
     background: url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") repeat-x scroll 50% 50% #FFBD09;
     height: 60px;
+}
+
+.topHeader1{
+    padding-right:  0px;
+}
+
+.topHeader2{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#idiomas{
+    width: 100%;
+    height: 33%;
+}
+
+.idiomas{
+    padding-left: 0px;
+    max-width: 100%;
+    height: 150px;
 }
 
 @-moz-document url-prefix() { 

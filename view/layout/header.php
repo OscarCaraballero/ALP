@@ -140,14 +140,16 @@
     <body>
         <div id="wrapper" class="grid-container">
             <div id="header" class="grid-100 header">
-			<div class="grid-40">
-                <img id="principal" src="view/img/logo.png"></img>
+		<div class="grid-40 topHeader1">
+                <img id="logo" src="view/img/logo.png"></img>
             </div>
-            <div class="grid-55">
+            <div class="grid-55 topHeader2">
                 <img id="principal" src="view/img/principal.png"></img>
             </div>
-            <div class="grid-5">
-                    
+            <div class="grid-5 idiomas">
+            <img id="idiomas" src="view/img/españa.png"></img>       
+            <img id="idiomas" src="view/img/reino_unido.png"></img>       
+            <img id="idiomas" src="view/img/alemania.png"></img>       
             </div>
             <div class="grid-100 buttons">
            		<div class="grid-20" id="bheader">
@@ -191,4 +193,17 @@
             </div>
         </div>
             <div id="content" class="grid-100">
+                <div id="dialog" title="Login">
+    <p class="validateTips">Todos los campos son obligatorios</p>
+    <form>
+        <fieldset>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"  class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"  class="text ui-widget-content ui-corner-all">
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+        </fieldset>
+    </form>
+</div>
                 
