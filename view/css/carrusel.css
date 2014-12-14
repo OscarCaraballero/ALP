@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 input[name="slider-select-element"] {
     display: none;
 }
@@ -25,7 +24,6 @@ input[name="slider-select-element"] {
 
 #slider-container {
     height: 20%;
-
     overflow: hidden;
     text-align: right;
     width: 80%;
@@ -33,13 +31,15 @@ input[name="slider-select-element"] {
 
 .foto-carrusel {
     height: 200px;
-    
     width: 400px;
+    
+    margin-left: 170px;
 }
 
 .slider-element {
-    float: left;
+    float:right;
     width: 33.333%;
+    padding-right: 80px;
 }
 
 #element1:checked ~ #slider-arrows label:nth-child(2),
@@ -59,8 +59,8 @@ input[name="slider-select-element"] {
 #element1:checked ~ #slider-arrows label:nth-child(2):before,
 #element2:checked ~ #slider-arrows label:nth-child(3):before,
 #element3:checked ~ #slider-arrows label:nth-child(1):before {
-    color: black  ;
-    content: "\f054";
+    color: black;
+    content: ">";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -73,7 +73,7 @@ input[name="slider-select-element"] {
 #element2:checked ~ #slider-arrows label:nth-child(1):before,
 #element3:checked ~ #slider-arrows label:nth-child(2):before {
     color: black  ;
-    content: "\f053";
+    content: "<";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -109,4 +109,17 @@ input[name="slider-select-element"] {
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
+}
+
+.slider {
+    float: right;
+    margin-top: 10px;
+    height: 225px;
+
+    background: #FFBD09 url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") 50% 50% repeat-x;
+    padding: .6em 1em;
+    color: #4c3000;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #d19405;    
 }
