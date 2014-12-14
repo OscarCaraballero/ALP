@@ -31,7 +31,7 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
 
         </div>
         <div class="grid-35 fotoDescDiv" >
-            <a class="fotoDesc" href="view/img/piscina.jpg">
+            <a class="fotoDesc" >
                 <img src="view/img/piscina.jpg" alt="" />
             </a>
         </div>
