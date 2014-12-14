@@ -83,6 +83,11 @@ a.fotoDesc img {
     width: 100%;
 }
 
+.mapa {
+    margin-top: 10px;
+    width: 100%;
+}
+
 .buttonComplex{
     width: 100%;
     margin-bottom: 0px;
