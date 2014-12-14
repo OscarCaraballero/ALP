@@ -1,3 +1,17 @@
+<div id="dialog" title="Login">
+    <p class="validateTips">Todos los campos son obligatorios</p>
+    <form>
+        <fieldset>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"  class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"  class="text ui-widget-content ui-corner-all">
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+        </fieldset>
+    </form>
+</div>
+
 <div class="grid-100 disVid">
     <div class="grid-50 disponibilidad">
         <form class="form" action="" method="post">
@@ -19,7 +33,8 @@
                 <input type="text" id="salida">
                 <label>Niños</label>
                 <select name="niños" id="niños">
-                    <option selected="selected">1</option>
+                    <option selected="selected">0</option>
+                    <option>1</option>
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>

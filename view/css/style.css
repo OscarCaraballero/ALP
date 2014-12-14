@@ -109,9 +109,10 @@ a.fotoDesc img {
     /*height: 40px;*/
     text-decoration: none;
     /*position: relative;*/
-    /*vertical-align: middle !important;*/
+    vertical-align: middle !important;
     /*overflow: visible;*/
-    /*font-size: 1.1em;*/
+    font-size: 1.1em;
+    line-height: 215%;
 }
 
 form fieldset {
@@ -189,4 +190,8 @@ input[type='text']{
     height: 60px;
 }
 
-/* Firefox 3.0+ */
+@-moz-document url-prefix() { 
+    #opener{
+        line-height: 216%;
+    }
+}
