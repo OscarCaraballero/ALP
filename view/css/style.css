@@ -10,6 +10,7 @@
 .disponibilidad{
     background: url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") repeat-x scroll 50% 50% #FFBD09;
     height: 250px;
+    border: 1px solid #D19405;
 }
 
 body{
