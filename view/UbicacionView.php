@@ -13,11 +13,15 @@ Aliquam ac tincidunt nulla. Phasellus pulvinar elementum nisl at accumsan. Proin
             <img src="view/img/apartamentos.jpg" alt="" />
         </a>
         
+        <a class="fotoDesc" href="view/img/apartamentos.jpg">
+            <img src="view/img/apartamentos.jpg" alt="" />
+        </a>
+        <!--
         <iframe class="mapa"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3519.5548921197365!2d-15.419847!3d28.099117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514173e77eb%3A0xbda0edfa5e221aaa!2sUniversidad+de+Las+Palmas+de+Gran+Canaria+-+ULPGC!5e0!3m2!1ses!2ses!4v1418573076287" 
-            height="300" frameborder="0" style="border:0">
+            height="300">
                 
-        </iframe>
+        </iframe>-->
 
     </div>
 </div>
