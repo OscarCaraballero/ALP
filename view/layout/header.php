@@ -141,10 +141,10 @@
         <div id="wrapper" class="grid-container">
             <div id="header" class="grid-100 header">
 			<div class="grid-40">
-                <img src="view/img/logo.png"></img>
+                <img id="principal" src="view/img/logo.png"></img>
             </div>
             <div class="grid-55">
-
+                <img id="principal" src="view/img/principal.png"></img>
             </div>
             <div class="grid-5">
                     

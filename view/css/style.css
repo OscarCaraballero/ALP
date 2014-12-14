@@ -99,6 +99,11 @@ a.fotoDesc img {
     margin-top: 0px;
 }
 
+#principal{
+    	max-width: 100%;
+        height: auto;
+        margin: 0 0 10px;
+}
 
 
 #opener{
