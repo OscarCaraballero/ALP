@@ -99,9 +99,19 @@ a.fotoDesc img {
     margin-top: 0px;
 }
 
-#button{
-    display: block;
-    margin: 1em 0;
+
+
+#opener{
+    width: 100% !important;
+    display: inline-block;
+    text-align: center;
+/*    margin: 1em 0;*/
+    /*height: 40px;*/
+    text-decoration: none;
+    /*position: relative;*/
+    /*vertical-align: middle !important;*/
+    /*overflow: visible;*/
+    /*font-size: 1.1em;*/
 }
 
 form fieldset {
@@ -178,3 +188,5 @@ input[type='text']{
     background: url("images/ui-bg_gloss-wave_60_FFBD09_500x100.png") repeat-x scroll 50% 50% #FFBD09;
     height: 60px;
 }
+
+/* Firefox 3.0+ */
